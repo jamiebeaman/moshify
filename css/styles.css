@@ -778,3 +778,37 @@ a{
     margin: 0 auto;
 }
 
+
+/* Features Block */
+
+.block-features__header{
+    text-align: center;
+}
+
+/* Features */
+
+.feature:first-of-type{
+    margin-top: 6rem;
+}
+
+.feature{
+    gap: 4rem 2rem;
+    margin: 12rem 0;
+}
+
+.features__image{
+    width: 100%;
+}
+
+.features__header{
+    margin: 1rem 0;
+}
+
+@media screen and (min-width: 768px) {
+    .feature:nth-of-type(even) .features-content {
+        order: 2;
+    }
+}
+
+
+
