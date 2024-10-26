@@ -27,6 +27,8 @@ body {
    color: var(--color-body);
    font-size: 2.4rem;
    line-height: 1.5;
+   overflow-x: hidden;
+   overflow-x: clip !important;
    
 }
 
